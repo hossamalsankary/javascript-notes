@@ -32,10 +32,10 @@ console.log(typeof(NaN_Example));
 console.log(Object.prototype.toString.call(myInteger)) ;
 console.log(Object.prototype.toString.call(myFloat)) ;
 console.log(Object.prototype.toString.call(myDouble)) ;
-console.log(Object.prototype.toString(myBoolean));
-console.log(Object.prototype.toString(myBoolean));
-console.log(Object.prototype.toString(notDefined));
-console.log(Object.prototype.toString(NaN_Example));
+console.log(Object.prototype.toString.call(myBoolean));
+console.log(Object.prototype.toString.call(myBoolean));
+console.log(Object.prototype.toString.call(notDefined));
+console.log(Object.prototype.toString.call(NaN_Example));
 
 
 
